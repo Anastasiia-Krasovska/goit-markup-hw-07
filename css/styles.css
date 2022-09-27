@@ -954,7 +954,6 @@ textarea {
   display: flex;
   flex-direction: column;
   width: 448px;
-  height: 120px;
 }
 
 .form-comment label {
@@ -980,7 +979,7 @@ textarea {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
+  color: var(--background-color);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   box-sizing: border-box;
@@ -1077,6 +1076,9 @@ textarea {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0;
+  margin-top: 72px;
+  margin-bottom: 20px;
 }
 .join-email .form-input {
   width: 358px;
