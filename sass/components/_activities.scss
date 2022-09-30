@@ -1,0 +1,47 @@
+.activities__title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-activities {
+    margin-bottom: 94px;
+    padding-top: 0;
+}
+
+.section-activities .container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.activities__list {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin: 0;
+}
+
+.activities__list__item {
+    width: 370px;
+}
+
+.activities__list__item+.activities__list__item {
+    margin-left: 30px;
+}
+
+.activities__list__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
