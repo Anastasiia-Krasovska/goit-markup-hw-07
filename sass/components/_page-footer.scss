@@ -1,5 +1,5 @@
 .adress {
-    background-color: var(--background-color);
+    background-color: $bgColor;
     padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
@@ -25,13 +25,13 @@
 }
 
 .nav-footer__logo .colortext {
-    color: var(--accent-text-color);
+    color: $accentColor;
 }
 
 .nav-footer__logo {
     margin-bottom: 20px;
     display: block;
-    color: var(--hero-text-color);
+    color: $heroColor;
     text-decoration: none;
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -40,7 +40,7 @@
 }
 
 .nav-footer__title a {
-    color: var(--primary-text-color);
+    color: $primaryColor;
     text-decoration: none;
     list-style: none;
     font-style: normal;
@@ -63,17 +63,17 @@
 }
 
 .nav-footer__title a {
-    color: var(--hero-text-color);
+    color: $heroColor;
 }
 
 .nav-footer__title :hover,
 .nav-footer__title:focus {
-    color: var(--accent-text-color);
+    color: $accentColor;
 }
 
 .nav-footer__link:hover,
 .nav-footer__link:focus {
-    color: var(--accent-text-color);
+    color: $accentColor;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -101,7 +101,7 @@
 }
 
 .join .social-icons__icon {
-    fill: var(--hero-text-color);
+    fill: $heroColor;
 }
 
 .join .social-icons__item {
@@ -116,7 +116,7 @@
 
 .join .social-icons__item:hover,
 .join .social-icons__item:focus {
-    background-color: var(--accent-text-color);
+    background-color: $accentColor;
 }
 .join__email {
     margin-left: auto;
@@ -145,7 +145,7 @@
     border-radius: 4px;
     padding-left: 0;
     padding-left: 16px;
-    color: var(--hero-text-color);
+    color: $heroColor;
 }
 
 .join__input::placeholder {
@@ -164,8 +164,8 @@
 .join__button button {
     width: 200px;
     height: 50px;
-    color: var(--hero-text-color);
-    background-color: var(--accent-text-color);
+    color: $heroColor;
+    background-color: $accentColor;
     border: none;
     border-radius: 4px;
     font-family: "Roboto";
