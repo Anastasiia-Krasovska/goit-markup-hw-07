@@ -47,12 +47,17 @@
         <section class="main-section">
             <section class="nav-buttons">
                 <div class="container">
-                    <ul class="nav-list">
-                        <li class="item"><button class="current-button" type="button">Усі</button></li>
-                        <li class="item"><button class="other-button" type="button">Веб-сайти</button></li>
-                        <li class="item"><button class="other-button" type="button">Додатки</button></li>
-                        <li class="item"><button class="other-button" type="button">Дизайн</button></li>
-                        <li class="item"><button class="other-button" type="button">Маркетинг</button></li>
+                    <ul class="nav-buttons__list">
+                        <li class="nav-buttons__item"><button class="nav-buttons__current-button"
+                                type="button">Усі</button></li>
+                        <li class="nav-buttons__item"><button class="nav-buttons__button"
+                                type="button">Веб-сайти</button></li>
+                        <li class="nav-buttons__item"><button class="nav-buttons__button" type="button">Додатки</button>
+                        </li>
+                        <li class="nav-buttons__item"><button class="nav-buttons__button" type="button">Дизайн</button>
+                        </li>
+                        <li class="nav-buttons__item"><button class="nav-buttons__button"
+                                type="button">Маркетинг</button></li>
                     </ul>
                 </div>
             </section>
@@ -230,52 +235,54 @@
     </main>
     <footer class="adress">
         <div class="container">
-            <div class="nav-header">
-                <a href="/" class="logo">
+            <div class="nav-footer">
+                <a href="/" class="nav-footer__logo">
                     <span class="colortext">Web</span>Studio
                 </a>
                 <address>
-                    <ul class="adress-title list">
-                        <li class="office-title">
+                    <ul class="nav-footer__list">
+                        <li class="nav-footer__title">
                             <a href="/">м. Київ, пр-т Лесі Українки, 26</a>
                         </li>
-                        <li class="item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li class="item"><a href=" tel:+380961111111">+380961111111</a></li>
+                        <li class="nav-footer__mail"><a class="nav-footer__link"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="nav-footer__phone"><a class="nav-footer__link"
+                                href=" tel:+380961111111">+380961111111</a></li>
                     </ul>
                 </address>
             </div>
             <div class="join">
-                <p class="title">ПРИЄДНУЙТЕСЬ</p>
+                <p class="join__title">ПРИЄДНУЙТЕСЬ</p>
                 <ul class="social-icons">
-                    <li class="icon-social-item">
-                        <svg class="icon-social">
+                    <li class="social-icons__item">
+                        <svg class="social-icons__icon">
                             <use class="item" href="./images/symbol-defs.svg#icon-instagram"></use>
                         </svg>
                     </li>
-                    <li class="icon-social-item">
-                        <svg class="icon-social">
+                    <li class="social-icons__item">
+                        <svg class="social-icons__icon">
                             <use class="item" href="./images/symbol-defs.svg#icon-twitter"></use>
 
                         </svg>
                     </li>
-                    <li class="icon-social-item">
-                        <svg class="icon-social">
+                    <li class="social-icons__item">
+                        <svg class="social-icons__icon">
                             <use class="item" href="./images/symbol-defs.svg#icon-facebook"></use>
                         </svg>
                     </li>
-                    <li class="icon-social-item">
-                        <svg class="icon-social">
+                    <li class="social-icons__item">
+                        <svg class="social-icons__icon">
                             <use class="item" href="./images/symbol-defs.svg#icon-linkedin"></use>
                         </svg>
                     </li>
                 </ul>
             </div>
-            <div class="join-email">
-                <p class="title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
-                <form>
-                    <label class="form-label" for="mail"></label>
-                    <input class="form-input" type="email" name="mail" id="mail" placeholder="E-mail" />
-                    <div class="join-button"><button type="button">Підписатися</button></div>
+            <div class="join__email">
+                <p class="join__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+                <form class="join__form">
+                    <label class="join__label" for="mail"></label>
+                    <input class="join__input" type="email" name="mail" id="mail" placeholder="E-mail" />
+                    <div class="join__button"><button type="button">Підписатися</button></div>
                 </form>
             </div>
     </footer>
