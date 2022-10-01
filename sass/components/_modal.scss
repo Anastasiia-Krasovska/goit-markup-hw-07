@@ -21,7 +21,7 @@
     height: 581px;
     width: 528px;
     padding: 40px;
-    background-color: var(--hero-text-color);
+    background-color: $heroColor;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -38,7 +38,7 @@
     height: 30px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--hero-text-color);
+    background-color: $heroColor;
     align-items: center;
     background-size: cover;
     background-position: center;
@@ -52,12 +52,12 @@
 .close-button__icon {
     width: 18px;
     height: 18px;
-    background-color: var(--hero-text-color);
+    background-color: $heroColor;
 }
 
 .close-button:hover,
 .close-button:focus {
-    fill: var(--accent-text-color);
+    fill: $accentColor;
 }
 
 textarea {
@@ -77,7 +77,7 @@ textarea {
 
 .form-field__input:hover,
 .form-field__input:focus {
-    border-color: var(--accent-text-color);
+    border-color: $accentColor;
 }
 
 .personal-data__label {
@@ -104,8 +104,8 @@ textarea {
 
 .form-field:hover,
 .form-field:focus {
-    fill: var(--accent-text-color);
-    border-color: var(--accent-text-color);
+    fill: $accentColor;
+    border-color: $accentColor;
 }
 
 .form-checkbox {
@@ -185,7 +185,7 @@ textarea {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    color: var(--background-color);
+    color: $bgColor;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     box-sizing: border-box;
@@ -194,14 +194,14 @@ textarea {
 
 .form-comment textarea:hover,
 .form-comment textarea:focus {
-    border-color: var(--accent-text-color);
+    border-color: $accentColor;
 }
 
 .submit-btn {
     margin-top: 30px;
     cursor: pointer;
-    color: var(--hero-text-color);
-    background-color: var(--accent-text-color);
+    color: $heroColor;
+    background-color: $accentColor;
     min-width: 200px;
     font-family: inherit;
     padding: 10px 52px;
@@ -271,13 +271,13 @@ textarea {
 }
 
 .form-checkbox__input:checked+.form-checkbox__icon {
-    border-color: var(--accent-text-color);
+    border-color: $accentColor;
     background-size: contain;
     background-origin: border-box;
-    background-color: var(--accent-text-color);
+    background-color: $accentColor;
     background-image: url(../images/check.svg);
 }
 
 .form-checkbox__link {
-    color: var(--accent-text-color);
+    color: $accentColor;
 }
