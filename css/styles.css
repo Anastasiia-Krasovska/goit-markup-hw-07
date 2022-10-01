@@ -484,11 +484,11 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio .item-photo {
+.portfolio__card {
   position: relative;
   overflow: hidden;
 }
-.overlay-explanation {
+.portfolio__label {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -502,7 +502,7 @@ body {
   margin-left: auto;
   width: 322px;
 }
-.product-overlay {
+.portfolio__overlay {
   display: block;
   position: absolute;
   justify-content: center;
@@ -540,10 +540,10 @@ body {
   color: #ffffff;
   margin-top: 27px;
 }
-.product-overlay:hover {
+.portfolio__overlay:hover {
   transform: translateY(0);
 }
-.portfolio .product-overlay {
+.portfolio__overlay {
   display: block;
   content: "";
   position: absolute;
@@ -557,17 +557,17 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio .item:hover .product-overlay {
+.portfolio__item:hover .portfolio__overlay {
   transform: translateY(0);
 }
-.portfolio .portfolio-title {
+.portfolio__name {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio .portfolio-title-explanation {
+.portfolio__speciality {
   color: var(--primary-text-color);
   margin: 0;
   font-size: 16px;
@@ -667,7 +667,7 @@ body {
 .nav-portfolio h1 {
   display: none;
 }
-.nav-portfolio .item:nth-child(3n) {
+.portfolio__item:nth-child(3n) {
   margin-right: 0;
 }
 .portfolio {
@@ -680,7 +680,7 @@ body {
   margin-top: 0;
   gap: 30px;
 }
-.portfolio-title {
+.portfolio__name {
   padding-top: 0;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -690,7 +690,7 @@ body {
   max-width: 100%;
   height: auto;
 }
-.portfolio .item {
+.portfolio__item {
   width: 370px;
 }
 .people-item {
@@ -710,7 +710,7 @@ h2 {
 h3 {
   margin: 0;
 }
-.item-div {
+.portfolio__title {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
@@ -842,15 +842,15 @@ h3 {
 .join .social-icons__item:focus {
   background-color: var(--accent-text-color);
 }
-.portfolio-photo {
+.portfolio__photo {
   display: block;
   text-decoration: none;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-photo:hover,
-.portfolio-photo:focus {
+.portfolio__photo:hover,
+.portfolio__photo:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
