@@ -1,5 +1,5 @@
 .features__title {
-    color: var(--title-text-color);
+    color: $titleColor;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
@@ -62,7 +62,7 @@
 }
 
 .features__list__title {
-    color: var(--title-text-color);
+    color: $titleColor;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -72,7 +72,7 @@
 }
 
 .features__list__title__explanation {
-    color: var(--primary-text-color);
+    color: $primaryColor;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.71;
