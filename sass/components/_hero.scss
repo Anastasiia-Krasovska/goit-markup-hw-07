@@ -1,6 +1,6 @@
 .hero {
     text-align: center;
-    background-color: var(--background-color);
+    background-color: $bgColor;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@
 }
 
 .hero__title {
-    color: var(--hero-text-color);
+    color: $heroColor;
     margin-top: 0;
     width: 696px;
     margin-bottom: 30px;
@@ -31,8 +31,8 @@
 
 .hero__button {
     cursor: pointer;
-    color: var(--hero-text-color);
-    background-color: var(--accent-text-color);
+    color: $heroColor;
+    background-color:$accentColor;
     min-width: 216px;
     font-family: inherit;
     padding: 10px 32px;
