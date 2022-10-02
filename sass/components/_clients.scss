@@ -64,32 +64,7 @@
     border-color: $accentColor;
 }
 
-.company__icon:nth-child(1) {
-    width: 41px;
-    height: 46.7px;
-}
-
-.company__icon:nth-child(2) {
-    width: 40px;
-    height: 52px;
-}
-
-.company__icon:nth-child(3) {
-    width: 43.46px;
-    height: 41.18px;
-}
-
-.company__icon:nth-child(4) {
-    width: 84.44px;
-    height: 40.62px;
-}
-
-.company__icon:nth-child(5) {
-    width: 62.54px;
-    height: 45.43px;
-}
-
-.company__icon:nth-child(6) {
-    width: 93.79px;
-    height: 43.93px;
+.company__icon {
+    width: 106px;
+    height:60px ;
 }
